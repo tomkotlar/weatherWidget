@@ -31,8 +31,12 @@ cd
 
 
 
+## Icons
+:sunny: Icons [Amcharts](https://www.amcharts.com/free-animated-svg-weather-icons/)<br />
+
+
 ## Api 
-:newspaper: Weather [Dark Sky](https://darksky.net/dev)<br />
-:bust_in_silhouette: Background Photos [Unsplash](https://unsplash.com/developers)<br />
-:bust_in_silhouette: Quotes [Forismatic](https://forismatic.com/en/api/)<br />
+:sun_behind_rain_cloud: Weather [Dark Sky](https://darksky.net/dev)<br />
+:national_park: Background Photos [Unsplash](https://unsplash.com/developers)<br />
+:book: Quotes [Forismatic](https://forismatic.com/en/api/)<br />
 
