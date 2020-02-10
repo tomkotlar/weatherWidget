@@ -1,7 +1,7 @@
 
 # :rocket: weatherWidget
 
-The aplication is deployed with GitHub Pages  [weather_widget]()
+The aplication is deployed with GitHub Pages  [weather_widget](https://rx1qu.csb.app/)
 
 
 ## Instructions
@@ -11,7 +11,7 @@ The Api calls are made with cors helper, because this app is run from localhost 
 Api can accept just limited amount of calls per hour.
 
 
-### - Setting up your own repository
+### Setting up your own repository
 
 :dvd: Clone this repo:
 
