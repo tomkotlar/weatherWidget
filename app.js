@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
           return data
         })
         .then(weather => {
-          // console.log(weather)
+          console.log(weather)
           const { temperature, summary, icon } = weather.currently
           myweather.description = summary
           myweather.iconId = icon
@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
 
           changeToCelsius(celsius, temperature)
           displayWeather()
-          // console.log(myweather)
+          console.log(myweather)
         })
         .catch(err => console.log(err, "this is errror"))
     })
@@ -96,7 +96,7 @@ function getQuote() {
   const proxy = "https://cors-anywhere.herokuapp.com/"
   let url = `${proxy}https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en&json=?`
 
-  fetch(url)
+  return fetch(url)
     .then(response => {
       let text = response.json()
       return text
